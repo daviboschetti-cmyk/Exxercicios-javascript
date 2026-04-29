@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync')();
+console.log("---Cálculo do Produto e da Soma de Quatro Números");
+let num1 = Number(prompt("Insira o primeiro número."));
+let num2 = Number(prompt("Insira o segundo número."));
+let num3 = Number(prompt("Insira o terceiro número."));
+let num4 = Number(prompt("Insira o quarto número."));
+let resultadoProduto = num1 * num2 * num3 * num4;
+let resultadoSoma = num1 + num2 + num3 + num4;
+console.log(`O produto de ${num1}, ${num2}, ${num3} e ${num4} é de ${resultadoProduto}.`);
+console.log(`A soma de ${num1}, ${num2}, ${num3} e ${num4} é de ${resultadoSoma}.`);
